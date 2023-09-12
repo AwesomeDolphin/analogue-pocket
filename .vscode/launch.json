@@ -21,6 +21,16 @@
       "args": [
         "${env:GITHUB_TOKEN}"
       ],
+    },
+    {
+      "name": "Debug: Updater v2",
+      "type": "Ruby",
+      "request": "launch",
+      "program": "${workspaceFolder}/.github/workflows/updater/lib/updater.rb",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "${env:GITHUB_TOKEN}"
+      ],
     }
   ]
 }
