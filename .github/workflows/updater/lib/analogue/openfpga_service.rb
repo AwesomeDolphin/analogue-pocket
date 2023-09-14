@@ -18,16 +18,12 @@ module Analogue
 
     def export_icon(id, path)
       icon = @core_repository.get_icon(id)
-      unless icon.nil?
-        icon.save(path)
-      end
+      icon.save(path) unless icon.nil?
     end
 
     def export_image(id, path)
       image = @platform_repository.get_image(id)
-      unless image.nil?
-        image.save(path)
-      end
+      image.save(path) unless image.nil?
     end
 
     def get_cores
