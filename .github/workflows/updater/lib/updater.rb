@@ -1,7 +1,6 @@
 require 'json'
 require 'ostruct'
-require_relative 'analogue/core_repository'
-require_relative 'analogue/platform_repository'
+require_relative 'analogue/openfpga_service'
 require_relative 'updater/repository_factory'
 
 module Updater
@@ -27,17 +26,17 @@ module Updater
     end
 
     def enumerate_cores(root_path)
-      core_repository = Analogue::CoreRepository.new(root_path);
-      platform_repository = Analogue::PlatformRepository.new(root_path);
+      openfpga_service = Analogue::OpenFPGAService.new(root_path)
 
-      cores = core_repository.get_cores
+      cores = openfpga_service.get_cores
       cores.inspect
 
       cores.each do |core|
-        data = core_repository.get_data(core.id)
+        data = openfpga_service.get_data(core.id)
+        data.inspect
 
         platform_id = core.platform_id
-        platform = platform_repository.get_platform(platform_id)
+        platform = openfpga_service.get_platform(platform_id)
         platform.inspect
       end
     end
