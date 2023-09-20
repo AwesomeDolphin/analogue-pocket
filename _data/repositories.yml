@@ -133,10 +133,10 @@
     - display_name: Yie Ar Kung-Fu
       repository: jtbin
       path: pocket/zips/jotego.jtyiear.zip
-    - display_name: JTCOMSC
+    - display_name: Combat School
       repository: jtbin
       path: pocket/zips/jotego.jtcomsc.zip
-    - display_name: JTKIWI
+    - display_name: The NewZealand Story
       repository: jtbin
       path: pocket/zips/jotego.jtkiwi.zip
     - display_name: Haunted Castle
@@ -148,6 +148,21 @@
     - display_name: Black Tiger
       repository: jtbin
       path: pocket/zips/jotego.jtbtiger.zip
+    - display_name: Teenage Mutant Ninja Turtles
+      repository: jtbin
+      path: pocket/zips/jotego.jttmnt.zip
+    - display_name: Aliens
+      repository: jtbin
+      path: pocket/zips/jotego.jtaliens.zip
+    - display_name: The Simpsons
+      repository: jtbin
+      path: pocket/zips/jotego.jtsimson.zip
+    - display_name: System 16B
+      repository: jtbin
+      path: pocket/zips/jotego.jts16b.zip
+    - display_name: Twin16 System
+      repository: jtbin
+      path: pocket/zips/jotego.jttwin16.zip
 - username: Mazamars312
   cores:
     - display_name: Amiga 500
