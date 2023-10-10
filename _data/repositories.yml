@@ -163,6 +163,15 @@
     - display_name: Twin16 System
       repository: jtbin
       path: pocket/zips/jotego.jttwin16.zip
+    - display_name: Super Hang-on
+      repository: jtbin
+      path: pocket/zips/jotego.jtshanon.zip
+    - display_name: Tiger Road
+      repository: jtbin
+      path: pocket/zips/jotego.jttora.zip
+    - display_name: Bad Dudes vs. DragonNinja
+      repository: jtbin
+      path: pocket/zips/jotego.jtninja.zip
 - username: Mazamars312
   cores:
     - display_name: Amiga 500
